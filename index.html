@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Fetch API</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="display-4 mb-4">Fetch API</h1>
+        <div class="d-flex">
+            <button class="btn btn-primary m-3" id="getText">Get Text</button>
+            <button class="btn btn-success m-3" id="getHeroes">Get JSON</button>
+            <button class="btn btn-warning m-3" id="getPosts">Get API Data</button>
+            <button class="btn btn-info m-3" id="getTodos">Get API Todos</button>
+
+        </div>
+        <hr>
+        <div id="output"></div>
+        <br>
+
+        <form id="addPost">
+            <div class="form-group">
+                <input class="form-control" type="text" id="title" placeholder="Title">
+            </div>
+            <div class="form-group">
+                <textarea class="form-control mt-2" id="body" placeholder="Body"></textarea>
+            </div>
+            <input class="btn btn-secondary mt-3" type="submit" value="Submit">
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
